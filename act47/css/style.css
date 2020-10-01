@@ -1,1 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #6eb2cd;
+}
+h1{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  font-family: Sans-serif;
+}
+h2{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  font-family: Sans-serif;
+  
+}
+h3{
+ font-family: Sans-serif;
+}
+
+
+.container{
+  background: #fcd753;
+  border-radius: 10px;
+  max-width: 900px;
+}
+#banner{
+  height: 900px;
+  max-width: 900px;
+  background: url("https://www.theloadout.com/wp-content/uploads/2019/12/s1mple-natus-vincere-navi-csgo-berlin-major-starladder.jpg");
+  background-position: center; 
+  background-size: cover;
+  border-style: solid;
+  border-size: 3px;
+  border-color: white;
+  border-radius: 3px;
+  margin: 10px 0px;
+  font-family: Alternate Gothic;
+  
+}
+#csgo{
+  padding: 5px 10px; 
+  border-style: solid;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+#AS{
+  padding: 5px 10px; 
+  border: 3px solid white;
+  border-radius: 3px;
+}
+a{
+  color: black;
+  text-decoration: underline;
+}
+ul{
+  display: inline-block;
+}
+.quote{
+  font-size: 18px;
+  font-family: Sans-serif
+}
+
 
