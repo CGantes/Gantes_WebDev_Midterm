@@ -1,0 +1,117 @@
+ <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Receipt</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<div id="invoice-POS">
+ <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 padding">
+     <div class="card">
+         <div class="card-header p-4">
+             <div class="float-right">
+                 <h3 class="mb-0">Invoice</h3>
+				 <th class="date">Date</th>
+				 <td class="date"><p class="itemtext"> <input type="text" id="text" placeholder="00/00/0000"></p></td>
+             </div>
+         </div>
+		 <h3 class="mb-0">Customer Info</h3>
+         <p> 
+		 <input style="text-align:center;" type="text" id="text1" placeholder="Ryan Gosling">
+		 </br>
+           <input style="text-align:center;" type="text" id="text1" placeholder="Davao City, USA">
+        </br>
+            <input style="text-align:center;" type="text" id="text1" placeholder="etc.@gmail.com">
+      </br>
+             <input  style="text-align:center;" type="text" id="text1" placeholder="0923832323232">
+    </br>
+                 </div>
+             </div>
+			 
+             <div class="table-responsive-sm">
+                 <table class="table table-striped">
+                     <thead>
+                         <tr>
+                             <th class="center">#</th>
+                             <th class="item">Item</th>
+                             <th class="description">Description</th>
+                             <th class="price">Price</th>
+                             <th class="quantity">Qty</th>
+                             <th class="tot">Total</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <td class="center"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="1"></p></td>
+                             <td class="item"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="steelseries mouse"></p></td>
+                             <td class="description"><p class="itemtext"> <input style="text-align:center;font-size:11px;;" type="text" id="text" placeholder="steelseries mouse with warranty"></td>
+                             <td class="price"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="₱2500"></td>
+                             <td class="quantity"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="3"></td>
+                             <td class="tot"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="₱7500"></td>
+                         </tr>
+                      <tr>
+                             <td class="center"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="2"></p></td>
+                             <td class="item"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="steelseries keyboard"></p></td>
+                             <td class="description"><p class="itemtext"> <input style="text-align:center;font-size:11px;;" type="text" id="text" placeholder="steelseries keyboard with warranty"></td>
+                             <td class="price"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="₱1800"></td>
+                             <td class="quantity"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="1"></td>
+                             <td class="tot"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="₱1800"></td>
+                         </tr>
+                         <tr>
+                             <td class="center"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="3"></p></td>
+                             <td class="item"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="ASUS 144hz Monitor"></p></td>
+                             <td class="description"><p class="itemtext"> <input style="text-align:center;font-size:11px;;" type="text" id="text" placeholder="ASUS 144hz Monitor with warranty"></td>
+                             <td class="price"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="₱20000"></td>
+                             <td class="quantity"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="1"></td>
+                             <td class="tot"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="₱20000"></td>
+                         </tr>
+                       <tr>
+                             <td class="center"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="4"></p></td>
+                             <td class="item"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="Logitech Gaming Headset"></p></td>
+                             <td class="description"><p class="itemtext"> <input style="text-align:center;font-size:11px;;" type="text" id="text" placeholder="Logitech Gaming Headset wtih warranty"></td>
+                             <td class="price"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="₱5000"></td>
+                             <td class="quantity"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="1"></td>
+                             <td class="tot"><p class="itemtext"> <input style="text-align:center;font-size:11px;" type="text" id="text" placeholder="₱5000"></td>
+                         </tr>
+                     </tbody>
+                 </table>
+             </div>
+             <div class="row">
+                 <div class="col-lg-4 col-sm-5">
+                 </div>
+                 <div class="table1">
+                     <table class="table">
+                         <tbody>
+                             <tr>
+                                 <td class="left">
+                                     <strong class="text-dark">Subtotal</strong>
+                                 </td>
+                                 <td class="tot"><p class="itemtext"> <input style="text-align:center;" type="text" id="text" placeholder="34,300"></td>
+                             </tr>
+                             <tr>
+                                 <td class="left">
+                                     <strong class="text-dark">Discount (20%)</strong>
+                                 </td>
+                                 <td class="tot"><p class="itemtext"> <input style="text-align:center;" type="text" id="text" placeholder="34,280"></td>
+                             </tr>
+                             <tr>
+                                 <td class="left">
+                                     <strong class="text-dark">VAT (10%)</strong>
+                                 </td>
+                                 <td class="tot"><p class="itemtext"> <input style="text-align:center;" type="text" id="text" placeholder="3428.00"></td>
+                             </tr>
+                             <tr>
+                                 <td class="left">
+                                     <strong class="text-dark">Total</strong> </td>
+                                 <td class="right">
+                                     <strong class="text-dark"><p class="itemtext"> <input type="text" style="text-align:center;" id="text" placeholder="37708.00"></strong>
+                                 </td>
+                             </tr>
+                         </tbody>
+                     </table>
+                 </div>
+             </div>
+			 </div>
+			 </body>
+			 </html>
+			 
