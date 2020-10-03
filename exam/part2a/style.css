@@ -1,1 +1,46 @@
+body {
+    background-color: #000;
+}
+#invoice-POS{
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 1);
+  padding: 50px;
+  margin:  100px;
+  width:  260mm;
+  background:#fff;
+  
+}
+.padding {
+    padding:auto;
+}
+table1{
+  width:50%;
+  border-collapse: collapse;
+}
+.card {
+    margin-bottom: 30px;
+    border: none;
+    
+}
+
+.card-header {
+    background-color: #fff;
+ 
+}
+
+h3 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 15px;
+    line-height: 26px;
+    color: #3d405c;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Circular Std Medium'
+}
+
+.text-dark {
+    color: #3d405c !important
+}
+
 
